@@ -1,6 +1,10 @@
-{
+{   "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8",
+        "editor.formatOnSave": true,
+        "files.autoSave": "afterDelay",
+    },
     "sonarlint.connectedMode.project": {
         "connectionId": "buiquanghuy99-aio24",
         "projectKey": "buiquanghuy99-aio24_AIO24-269"
-    }
+    },
 }
