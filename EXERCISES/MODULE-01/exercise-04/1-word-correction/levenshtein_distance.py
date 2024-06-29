@@ -13,7 +13,7 @@ def levenshtein_distance(token1, token2):
             if token1[t1 - 1] == token2[t2 - 1]:
                 distances[t1][t2] = distances[t1 - 1][t2 - 1]
             else:
-                a = distances[t1][t2 - t1]
+                a = distances[t1][t2 - 1]
                 b = distances[t1 - 1][t2]
                 c = distances[t1 - 1][t2 - 1]
                 distances[t1][t2] = min(a, b, c) + 1

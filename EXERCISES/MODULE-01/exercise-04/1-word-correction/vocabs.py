@@ -4,4 +4,4 @@ def load_vocab(file_path):
     words = sorted(set([line.strip().lower() for line in lines]))
     return words
 
-vocabs = load_vocab(file_path='exercise-04/1-word-correction/vocab.txt')
+vocabs = load_vocab(file_path=r'EXERCISES\MODULE-01\exercise-04\1-word-correction\vocab.txt')

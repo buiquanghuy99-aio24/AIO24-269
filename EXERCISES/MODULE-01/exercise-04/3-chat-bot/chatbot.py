@@ -50,4 +50,4 @@ if st.session_state.messages[-1]['role'] != 'assistant':
     message = {'role': 'assistant', 'content': response}
     st.session_state.messages.append(message)
 
-# streamlit run exercise-04/3-chat-bot/chatbot.py
+# streamlit run EXERCISES\MODULE-01\exercise-04\3-chat-bot\chatbot.py

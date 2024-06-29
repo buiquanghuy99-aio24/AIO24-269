@@ -24,8 +24,7 @@ def main():
         col2.write('Distances:')
         col2.write(sorted_distances)
 
-
 if __name__ == "__main__":
     main()
 
-# streamlit run exercise-04\1-word-correction\word-correction-app.py
+# streamlit run EXERCISES\MODULE-01\exercise-04\1-word-correction\word-correction-app.py

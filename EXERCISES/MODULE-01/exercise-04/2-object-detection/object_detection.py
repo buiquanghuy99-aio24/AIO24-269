@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
 
-MODEL = 'exercise-04/2-object-detection/MobileNetSSD_deploy.caffemodel'
-PROTOTXT = 'exercise-04/2-object-detection/MobileNetSSD_deploy.prototxt.txt'
+MODEL = r'EXERCISES\MODULE-01\exercise-04\2-object-detection\MobileNetSSD_deploy.caffemodel'
+PROTOTXT = r'EXERCISES\MODULE-01\exercise-04\2-object-detection\MobileNetSSD_deploy.prototxt.txt'
 
 
 def process_image(image):
