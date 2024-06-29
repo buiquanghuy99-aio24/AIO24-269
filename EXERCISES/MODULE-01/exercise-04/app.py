@@ -1,7 +1,7 @@
 # streamlit run EXERCISES\MODULE-01\exercise-04\app.py
 import streamlit as st
 
-image_path = r'EXERCISES\MODULE-01\exercise-04\2-object-detection\image\kitten-dog.jpg'
+image_path = 'EXERCISES/MODULE-01/exercise-04/2-object-detection/image/kitten-dog.jpg'
 
 # Câu 1
 with st.expander('Câu 1'):
